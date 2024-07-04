@@ -5,6 +5,7 @@
  */
 
 import React from "react";
+import "./About.css"; // Import the CSS file
 
 /**
  * About background image
