@@ -31,28 +31,25 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "To Do List Website ",
+    description: "This application allows users to add, check off, and delete tasks. The tasks are stored in the browser's local storage, so they persist across page reloads." ,
+  url: "https://github.com/17122016/ToDoList",
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    description: "A resume website using HTML, CSS, and host it on GitHub pages.",
+    url: "https://17122016.github.io/Resume_website/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Weather Forecast Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "I developed a Weather Forecast App that provides real-time weather updates and forecasts for any location worldwide. The app uses data from various meteorological sources to deliver accurate and up-to-date weather information.",
+    url: "https://github.com/17122016/Weather_forecast_app",
+  },
+  {
+    title: "My Portfolio ",
+    description:"This is a responsive personal portfolio website template built using HTML, CSS, and JavaScript. It features smooth scrolling, a clean and modern design, and sections for showcasing your work, skills, services, and contact information.",
+    url: "https://github.com/17122016/My_Portfolio",
   },
 ];
 
