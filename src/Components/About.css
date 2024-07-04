@@ -7,11 +7,16 @@
   }
   
   .skills-list {
-    text-align: left;
-    columns: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     font-size: 1.25rem;
     margin: 2rem 3rem;
-    gap: 3rem;
+  }
+  
+  .skills-list li {
+    flex: 0 1 45%; /* Flex items take up roughly 45% of the container's width */
+    margin-bottom: 1rem;
   }
   
   .quote {
@@ -25,9 +30,12 @@
     }
   
     .skills-list {
-      columns: 1;
       margin: 1rem 1.5rem;
       font-size: 1rem;
+    }
+  
+    .skills-list li {
+      flex: 0 1 100%; /* Flex items take up 100% of the container's width */
     }
   
     .quote {
@@ -44,6 +52,10 @@
     .skills-list {
       margin: 1rem;
       font-size: 0.875rem;
+    }
+  
+    .skills-list li {
+      flex: 0 1 100%; /* Flex items take up 100% of the container's width */
     }
   
     .quote {
