@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://17122016.github.io/Portfolio_JS/",
+  "homepage": "https://17122016.github.io/Nidhi_Nayak_Portfolio/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://17122016.github.io/Portfolio_JS/'",
+    "build-gh": "parcel build --public-url 'https://17122016.github.io/Nidhi_Nayak_Portfolio/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },

@@ -29,10 +29,10 @@ import youTubeIcon from "../images/socials/youtube.svg";
 const Footer = (props) => {
   const {
     devDotTo,
-    email,
-    gitHub,
+    email = "nidhinayak154@gmail.com",
+    gitHub = "https://github.com/17122016",
     instagram,
-    linkedIn,
+    linkedIn = "https://www.linkedin.com/in/nidhi-nayak-688a9718b/",
     medium,
     name,
     primaryColor,
