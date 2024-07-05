@@ -12,7 +12,7 @@ const skillsList = [
   "User experience",
   "Inclusive design",
   "Focus group testing",
-  "Mobile user interfaces"
+  "Mobile user interfaces",
 ];
 
 const detailOrQuote =

@@ -32,8 +32,9 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "To Do List Website ",
-    description: "This application allows users to add, check off, and delete tasks. The tasks are stored in the browser's local storage, so they persist across page reloads." ,
-  url: "https://github.com/17122016/ToDoList",
+    description:
+      "This application allows users to add, check off, and delete tasks. The tasks are stored in the browser's local storage, so they persist across page reloads.",
+    url: "https://github.com/17122016/ToDoList",
   },
   {
     title: "My Resume Site",
@@ -48,7 +49,8 @@ const projectList = [
   },
   {
     title: "My Portfolio ",
-    description:"This is a responsive personal portfolio website template built using HTML, CSS, and JavaScript. It features smooth scrolling, a clean and modern design, and sections for showcasing your work, skills, services, and contact information.",
+    description:
+      "This is a responsive personal portfolio website template built using HTML, CSS, and JavaScript. It features smooth scrolling, a clean and modern design, and sections for showcasing your work, skills, services, and contact information.",
     url: "https://github.com/17122016/My_Portfolio",
   },
 ];
