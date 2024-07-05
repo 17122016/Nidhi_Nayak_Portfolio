@@ -19,10 +19,10 @@ import youTubeIcon from "../images/socials/youtube.svg";
 const Footer = (props) => {
   const {
     devDotTo,
-    email = "nidhinayak154@gmail.com",
-    gitHub = "17122016",
+    email,
+    gitHub,
     instagram,
-    linkedIn = "nayaknidhi",
+    linkedIn,
     medium,
     name,
     primaryColor,
@@ -51,7 +51,7 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <a href={`mailto:${email}`}>
+          <a href={`mailto:${"nidhinayak154@gmail.com"}`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
@@ -61,7 +61,7 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/${17122016}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
@@ -76,7 +76,7 @@ const Footer = (props) => {
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`https://www.linkedin.com/in/nidhi-nayak-688a9718b/`}
             target="_blank"
             rel="noopener noreferrer"
           >
