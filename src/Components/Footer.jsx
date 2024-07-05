@@ -1,12 +1,3 @@
-/**
- * Footer component
- *
- * Displays avenues to contact you.
- * Contact information is passed in from the App component that
- * renders the Footer.
- *
- * If a social value has an empty string it will not be displayed.
- */
 import React from "react";
 import PropTypes from "prop-types";
 import devDotToIcon from "../images/socials/devdotto.svg";
@@ -31,7 +22,7 @@ const Footer = (props) => {
     email = "nidhinayak154@gmail.com",
     gitHub = "17122016",
     instagram,
-    linkedIn = "nidhi-nayak-688a9718b",
+    linkedIn = "nayaknidhi",
     medium,
     name,
     primaryColor,
@@ -134,7 +125,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;
