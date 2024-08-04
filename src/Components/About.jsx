@@ -5,7 +5,7 @@ import image from "../images/motion-background.jpg";
 const imageAltText = "purple and blue abstract background";
 
 const description =
-  "As a frontend developer aiming to design and develop experiences that make people's lives easy, I am looking for a job in a dynamic company that values innovation and user-centered design.";
+  "As a Web developer aiming to design and develop experiences that make people's lives easy, I am looking for a job in a dynamic company that values innovation and user-centered design.";
 
 const skillsList = [
   "Web design",
@@ -16,7 +16,7 @@ const skillsList = [
 ];
 
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my developer experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (

@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Nidhi Nayak",
-  title: "Web Designer ",
+  title: "Web Developer ",
   email: "nidhinayak154@gmail.com",
   gitHub: "https://github.com/17122016",
   linkedIn: "https://www.linkedin.com/in/nidhi-nayak-688a9718b/",
